@@ -15,7 +15,8 @@ const { v4: uuidv4 } = require("uuid");
 //Express App
 const app = express();
 
-const timeLimit = 1000 * 60 * 60 * 24; //1 day
+//Session Time
+const timeLimit = 1000 * 60 * 60 * 12; //12 hours
 
 // DB URI
 const dbURI =
