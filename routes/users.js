@@ -31,6 +31,7 @@ router.put("/:id/follow", async (req, res) => {
 });
 
 //Unfollow an user
+
 router.put("/:id/unfollow", async (req, res) => {
   if (req.body.userId !== req.params.id) {
         try {
